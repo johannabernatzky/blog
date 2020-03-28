@@ -1,0 +1,28 @@
+baseURL = "https://johannabernatzky.github.io"
+languageCode = "en-us"
+title = "Quarantine Chronicles"
+copyright = "Johanna 小贝 and Sophie 筱然 2020."
+theme = "diary"
+# googleAnalytics = "UA-123-45"
+disqusShortname = "quarantinechronicles"
+
+[params]
+subtitle = "疫时写译"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+
